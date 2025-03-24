@@ -3,8 +3,8 @@
 #Crie um programa que calcule a média aritmética entre dois números
 import math
 
-num1 = int(input("Digite um número:"))
-num2 = int(input("Digite o segundo número número:"))
+num1 = int(input("Digite um número: "))
+num2 = int(input("Digite o segundo número: "))
 
 antecessor = num1 -1
 sucessor = num1 +1
@@ -14,6 +14,6 @@ triplo = num1 * 3
 raiz_quadrada = math.sqrt(num1) #num** 0.5
 media = (num1 + num2)/2
 
-print(f'O antecessor do número 1 informado é {antecessor} e sucessor o número é {sucessor}. O dobro é {dobro}, o triplo é {triplo} e a sua raiz quadrada é {raiz_quadrada} :')
+print(f'O antecessor do primeiro número informado é {antecessor} e o sucessor é {sucessor}. O dobro é {dobro}, o triplo é {triplo}, e a sua raiz quadrada é {raiz_quadrada}.')
 
-print(f'A média dos números, {media}')
+print(f'A média dos números é {media}.')
